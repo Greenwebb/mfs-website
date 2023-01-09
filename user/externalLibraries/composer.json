@@ -1,0 +1,7 @@
+{
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "hashids/hashids": "^4.0",
+        "google/apiclient": "^2.0"
+    }
+}

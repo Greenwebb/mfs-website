@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 27" width="170" height="27">
+	<defs>
+		<image width="26" height="27" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAMAAABVyG9ZAAAAAXNSR0IB2cksfwAAAFdQTFRFAAAAKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYKvWYGUh+2gAAAB10Uk5TAGDf728w/0CAr58QfyBQ0KDAz4/wkHAPsE9fHz/OD/z2AAAA8ElEQVR4nIVS25aEIAwrIBG3eIEZHffy/9+5hRFRj3s2DyqkpgmFaIfSpqFbWAjaW8qh+4DLRXWTG98TDYCBEl0Ds/88yqZwExCI+qRrNqaFjlnJJqUBkWLp2cK8qbJ6AFwFn+WbKIjgvNtYXGWIllndx/sHtoNu0kv7C8MmBVC560V7Qey9ZEgF7kw5eHoBtAo1nCkF/dnJyfAUlquN8e8hsAurvWWORV/HEvZdUw4nxaj2+xRKc/EKCVGwIrqIqXjNM9wAvOSa6G0V8LQH6pt+MO6dD88J2ps6sIz53ZBT3pFPlJxzlmXlrqNUxVbBL8HoCImXlOxbAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 18px;fill: #ffffff;font-weight: 700;font-family: "Poppins-Bold", "Poppins";text-anchor: middle } 
+	</style>
+	<use id="images-logo-dark" href="#img1" x="0" y="0" />
+	<text id="mighty finance " style="transform: matrix(1,0,0,1,99.5,6)" >
+		<tspan x="0" y="18" class="txt0">mighty finance</tspan>
+	</text>
+</svg>

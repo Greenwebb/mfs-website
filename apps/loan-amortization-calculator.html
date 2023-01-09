@@ -1,0 +1,1686 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://demo.oceanthemes.net/borrow/xmlrpc.php">
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="http://demo.oceanthemes.net/borrow/wp-content/uploads/2017/12/favicon.jpg">
+    <title>Loan &amp; Amortization Calculator - Might Finance Solution</title>
+    <!-- This site is optimized with the Yoast SEO plugin v13.4.1 - https://yoast.com/wordpress/plugins/seo/ -->
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="http://demo.oceanthemes.net/borrow/loan-amortization-calculator/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Loan &amp; Amortization Calculator - Borrow">
+    <meta property="og:url" content="http://demo.oceanthemes.net/borrow/loan-amortization-calculator/">
+    <meta property="og:site_name" content="Borrow">
+    <meta property="og:image" content="http://demo.oceanthemes.net/borrow/wp-content/uploads/2017/06/amortization-vc.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Loan &amp; Amortization Calculator - Borrow">
+    <meta name="twitter:image" content="http://demo.oceanthemes.net/borrow/wp-content/uploads/2017/06/amortization-vc.jpg">
+    <script type="application/ld+json" class="yoast-schema-graph yoast-schema-graph--main">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                "@type": "WebSite",
+                "@id": "http://demo.oceanthemes.net/borrow/#website",
+                "url": "http://demo.oceanthemes.net/borrow/",
+                "name": "Borrow",
+                "inLanguage": "en-US",
+                "description": "Loan Company Responsive WordPress Theme",
+                "potentialAction": [{
+                    "@type": "SearchAction",
+                    "target": "http://demo.oceanthemes.net/borrow/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }]
+            }, {
+                "@type": "ImageObject",
+                "@id": "http://demo.oceanthemes.net/borrow/loan-amortization-calculator/#primaryimage",
+                "inLanguage": "en-US",
+                "url": "http://demo.oceanthemes.net/borrow/wp-content/uploads/2017/06/amortization-vc.jpg",
+                "width": 186,
+                "height": 69
+            }, {
+                "@type": "WebPage",
+                "@id": "http://demo.oceanthemes.net/borrow/loan-amortization-calculator/#webpage",
+                "url": "http://demo.oceanthemes.net/borrow/loan-amortization-calculator/",
+                "name": "Loan &amp; Amortization Calculator - Borrow",
+                "isPartOf": {
+                    "@id": "http://demo.oceanthemes.net/borrow/#website"
+                },
+                "inLanguage": "en-US",
+                "primaryImageOfPage": {
+                    "@id": "http://demo.oceanthemes.net/borrow/loan-amortization-calculator/#primaryimage"
+                },
+                "datePublished": "2017-06-22T07:17:52+00:00",
+                "dateModified": "2020-01-08T14:55:50+00:00",
+                "potentialAction": [{
+                    "@type": "ReadAction",
+                    "target": ["http://demo.oceanthemes.net/borrow/loan-amortization-calculator/"]
+                }]
+            }]
+        }
+    </script>
+    <!-- / Yoast SEO plugin. -->
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//s.w.org">
+    <link rel="alternate" type="application/rss+xml" title="mighty finance &raquo; Feed" href="http://demo.oceanthemes.net/borrow/feed/">
+    <link rel="alternate" type="application/rss+xml" title="mighty finance &raquo; Comments Feed" href="http://demo.oceanthemes.net/borrow/comments/feed/">
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "http:\/\/demo.oceanthemes.net\/borrow\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.4"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(e, a, t) {
+            var r, n, o, i, p = a.createElement("canvas"),
+                s = p.getContext && p.getContext("2d");
+
+            function c(e, t) {
+                var a = String.fromCharCode;
+                s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, e), 0, 0);
+                var r = p.toDataURL();
+                return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL()
+            }
+
+            function l(e) {
+                if (!s || !s.fillText) return !1;
+                switch (s.textBaseline = "top", s.font = "600 32px Arial", e) {
+                    case "flag":
+                        return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]));
+                    case "emoji":
+                        return !c([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340])
+                }
+                return !1
+            }
+
+            function d(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (i = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, o = 0; o < i.length; o++) t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports.everything && t.supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[i[o]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+                t.DOMReady = !0
+            }, t.supports.everything || (n = function() {
+                t.readyCallback()
+            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                "complete" === a.readyState && t.readyCallback()
+            })), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" id="wp-block-library-css" href="css/block-library-style.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="contact-form-7-css" href="css/css-styles.css" type="text/css" media="all">
+    <link rel="stylesheet" id="borrow-fonts-css" href="https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C500%2C600%2C700%7CMerriweather%3A300%2C300i%2C400%2C400i%2C700%2C700i&amp;subset=latin%2Clatin-ext" type="text/css" media="all">
+    <link rel="stylesheet" id="borrow-bootstrap-update-css" href="css/bootstrap-bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="borrow-font-awesome-css" href="css/css-font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="borrow-fontello-css" href="css/fontello-fontello.css" type="text/css" media="all">
+    <link rel="stylesheet" id="borrow-flaticon-css" href="css/css-flaticon.css" type="text/css" media="all">
+    <link rel="stylesheet" id="borrow-animsition-css" href="css/css-animsition.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="borrow-owl-carousel-css" href="css/css-owl.carousel.css" type="text/css" media="all">
+    <link rel="stylesheet" id="borrow-owl-theme-css" href="css/css-owl.theme.css" type="text/css" media="all">
+    <link rel="stylesheet" id="borrow-owl-transitions-css" href="css/css-owl.transitions.css" type="text/css" media="all">
+    <link rel="stylesheet" id="borrow-popup-css" href="css/css-magnific-popup.css" type="text/css" media="all">
+    <link rel="stylesheet" id="borrow-simple-slider-css" href="css/css-simple-slider.css" type="text/css" media="all">
+    <link rel="stylesheet" id="borrow-jquery-ui-css" href="css/css-jquery-ui.css" type="text/css" media="all">
+    <link rel="stylesheet" id="borrow-style-css" href="css/borrow-style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="newsletter-css" href="css/newsletter-style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="js_composer_front-css" href="css/css-js_composer.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="shmac-dynamic-css-css" href="css/wp-admin-admin-ajax.php" type="text/css" media="all">
+    <script type="text/javascript" src="js/jquery-jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="js/js-royal_preloader.min.js"></script>
+    <link rel="https://api.w.org/" href="http://demo.oceanthemes.net/borrow/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://demo.oceanthemes.net/borrow/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://demo.oceanthemes.net/borrow/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 5.4.4">
+    <link rel="shortlink" href="http://demo.oceanthemes.net/borrow/?p=858">
+    <link rel="alternate" type="application/json+oembed" href="http://demo.oceanthemes.net/borrow/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdemo.oceanthemes.net%2Fborrow%2Floan-amortization-calculator%2F">
+    <link rel="alternate" type="text/xml+oembed" href="http://demo.oceanthemes.net/borrow/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdemo.oceanthemes.net%2Fborrow%2Floan-amortization-calculator%2F&amp;format=xml">
+    <style type="text/css">
+        /* 01 MAIN STYLES
+		****************************************************************************************************/
+        
+         ::selection {
+            color: #fff;
+            background: #cda349;
+        }
+        
+         ::-moz-selection {
+            color: #fff;
+            background: #cda349;
+        }
+        /* default color: #00cb8b */
+        /* Preload Colors */
+        
+        .royal_preloader,
+        html {
+            background-color: #ffffff;
+        }
+        
+        #royal_preloader.royal_preloader_progress .royal_preloader_meter {
+            background-color: #cda349;
+        }
+        
+        #royal_preloader.royal_preloader_progress .royal_preloader_percentage {
+            color: #111111;
+        }
+        
+        a,
+        #navigation>ul>li:hover>a,
+        #navigation ul ul li:hover>a,
+        #navigation ul ul li a:hover,
+        .btn-link:hover,
+        .meta-date,
+        .icon-default,
+        .text-big,
+        .widget-footer ul li a:hover,
+        .highlight,
+        .sub-nav>.nav li a:hover,
+        .rate-number,
+        .designation,
+        .widget_categories li a:hover,
+        .widget_archive li a:hover,
+        .name,
+        .prev-link:hover,
+        .next-link:hover,
+        .testimonial-title,
+        .msg,
+        div.vc_tta-color-white.vc_tta-style-classic .vc_tta-tab.vc_active>a,
+        div.vc_tta-color-white.vc_tta-style-classic .vc_tta-tab>a:hover,
+        .page-breadcrumb .breadcrumb a span:hover,
+        .widget-social ul li a:hover,
+        #navigation li.current-menu-parent>a,
+        #navigation li.current-menu-item>a,
+        .st-tabs .nav-tabs.nav-justified>.active>a,
+        .st-tabs .nav-tabs.nav-justified>.active>a:focus,
+        .st-tabs .nav-tabs.nav-justified>.active>a:hover,
+        .procwss-v2 .circle,
+        .btn-default-link,
+        .pink-circle.circle,
+        #navigation.small-screen #menu-button,
+        #sub-nav.small-screen #menu-button,
+        .text-pink {
+            color: #cda349;
+        }
+        
+        a.expand:hover {
+            color: #fff;
+        }
+        
+        .btn-default,
+        .cd-top,
+        #service .owl-next:hover,
+        #service .owl-prev:hover,
+        #to-the-top,
+        .slide-ranger .ui-widget-header,
+        .widget_tag_cloud a:hover,
+        .st-pagination .pagination>li:first-child>span,
+        .st-pagination .pagination>li>a:focus,
+        .st-pagination .pagination>li>a:hover,
+        .st-pagination .pagination>li>span:focus,
+        .st-pagination .pagination>li>span:hover,
+        .slider>.dragger,
+        #navigation.small-screen #menu-button:before,
+        #sub-nav.small-screen #menu-button:before,
+        .customer-quote-circle {
+            background-color: #cda349;
+        }
+        
+        #service .owl-next:hover,
+        #service .owl-prev:hover,
+        div.vc_tta.vc_tta-accordion .vc_tta-panel.vc_active .vc_tta-controls-icon-position-left .vc_tta-controls-icon:before,
+        .slide-ranger .ui-slider .ui-slider-handle,
+        .slide-ranger .ui-widget.ui-widget-content,
+        .widget_tag_cloud a:hover,
+        .st-pagination .pagination>li:first-child>span,
+        .st-pagination .pagination>li>a:focus,
+        .st-pagination .pagination>li>a:hover,
+        .st-pagination .pagination>li>span:focus,
+        .st-pagination .pagination>li>span:hover,
+        .slider>.dragger,
+        #navigation.small-screen #menu-button:after,
+        #sub-nav.small-screen #menu-button:after,
+        .procwss-v2 .circle,
+        .pink-circle.circle {
+            border-color: #cda349;
+        }
+        
+        .mfp-arrow-right:after,
+        .mfp-arrow-right .mfp-a {
+            border-left-color: #cda349;
+        }
+        
+        .border-top-default {
+            border-top-color: #cda349;
+        }
+        
+        .btn-link:hover {
+            border-bottom-color: #cda349;
+        }
+        
+        .slider>.dragger {
+            background-image: -webkit-linear-gradient(top, #cda349, #cda349);
+        }
+        
+        .btn-default:hover {
+            background-color: #ff389c;
+        }
+        
+        .btn-default:hover {
+            border-color: #ff389c;
+        }
+        /* main color 2: #662d91 */
+        
+        a:focus,
+        a:hover,
+        .btn-link,
+        .circle,
+        .icon-primary,
+        .testimonial-name-1,
+        .big-title,
+        .post-block .meta-comments a:hover,
+        .post-related-content a:hover,
+        .feature-left .feature-icon,
+        .testimonial-name-inverse,
+        div.vc_tta-color-white.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-title>a:hover,
+        .page-breadcrumb .breadcrumb a span,
+        .page-breadcrumb .breadcrumb,
+        .meta-author a:hover {
+            color: #662d91;
+        }
+        
+        .bg-custom,
+        .top-bar,
+        .btn-primary {
+            background-color: #662d91;
+        }
+        
+        .circle {
+            border-color: #662d91;
+        }
+        
+        .btn-primary,
+        .btn-link {
+            border-bottom-color: #662d91;
+        }
+        
+        .mail-text {
+            border-right-color: #662d91;
+        }
+        
+        .btn-primary:hover {
+            background-color: #2573cb;
+        }
+        
+        .btn-primary:hover {
+            border-color: #2573cb;
+        }
+        /* background color top header */
+        
+        div.top-bar {
+            background-color: #662d91;
+        }
+        /* color text top header */
+        
+        .top-text a,
+        .top-bar {
+            color: #f1f1f1;
+        }
+        /* bg color header static */
+        
+        .header,
+        .header-2 {
+            background-color: rgba(255, 255, 255, 1);
+        }
+        /* text color header static */
+        
+        #navigation>ul>li>a {
+            color: rgba(102, 112, 127, 1);
+        }
+        /* bg color header sticky */
+        
+        .is-sticky .header,
+        .is-sticky .header-2 {
+            background-color: rgba(255, 255, 255, 1);
+        }
+        /* text color header sticky */
+        
+        .is-sticky #navigation>ul>li>a {
+            color: rgba(102, 112, 127, 1);
+        }
+        /** Customize css code **/
+        
+        .is-sticky .header.header-tabbed {
+            background-color: #662d91;
+        }
+        
+        .hide-over {
+            overflow: hidden;
+        }
+    </style>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+        .vc_custom_1498124259540 {
+            padding-top: 80px !important;
+            padding-bottom: 80px !important;
+        }
+        
+        .vc_custom_1498124265381 {
+            padding-bottom: 80px !important;
+        }
+        
+        .vc_custom_1498124270371 {
+            padding-bottom: 80px !important;
+        }
+        
+        .vc_custom_1498121289290 {
+            padding-bottom: 100px !important;
+        }
+    </style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="page-template page-template-page-templates page-template-template-fullwidth page-template-page-templatestemplate-fullwidth-php page page-id-858 borrow-theme-ver-1.2.0 wordpress-version-5.4.4 royal_preloader wpb-js-composer js-comp-ver-6.1 vc_responsive">
+
+
+    <!-- header close -->
+    <div class="collapse searchbar" id="searchbar">
+        <div class="search-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <form role="search" method="get" action="http://demo.oceanthemes.net/borrow/">
+                            <div class="input-group">
+                                <input type="text" class="search-query form-control" name="s" placeholder="Search for..." value=""><span class="input-group-btn">
+                  <button class="btn btn-default" type="submit">Go!</button>
+                </span>
+                            </div>
+                            <!-- /input-group -->
+                        </form>
+                    </div>
+                    <!-- /.col-lg-6 -->
+                </div>
+            </div>
+        </div>
+        <a class="search-close" role="button" data-toggle="collapse" href="#searchbar" aria-expanded="true"><i class="fa fa-close"></i></a>
+    </div>
+
+    <div class="top-bar">
+        <!-- top-bar -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 hidden-xs hidden-sm">
+                    <p class="mail-text">Welcome to our Mighty Finance Loan Website Templates</p>
+                </div>
+                <div class="col-md-8 col-sm-12 text-right col-xs-12">
+                    <div class="top-nav">
+                        <span class="top-text hidden-xs"><a href="contact-us.html">View Locations</a> </span>
+                        <span class="top-text"><a href="tel:1+260977372265, +2607635807807">+1+260977372265, +2607635807807</a></span>
+                        <span class="top-text"><a href="loan-calculator.html">EMI calculator</a></span> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-12 col-xs-6">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="borrow.html">
+                            <img src="images/images-logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-12 col-xs-12">
+                    <div id="navigation">
+                        <ul id="menu-primary" class="menu">
+                            <li id="menu-item-845" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-845"><a href="borrow.html">Home</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-626" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-626"><a href="borrow.html">Home 1</a></li>
+                                    <li id="menu-item-627" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-627"><a href="home-2.html">Home 2</a></li>
+                                    <li id="menu-item-628" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-628"><a href="home-3.html">Home 3</a></li>
+                                    <li id="menu-item-946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-946"><a href="home-4.html">Home 4</a></li>
+                                    <li id="menu-item-952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-952"><a href="students-loan.html">Students Loan</a></li>
+                                    <li id="menu-item-945" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-945"><a href="business-loan.html">Business Loan</a></li>
+                                    <li id="menu-item-1426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1426"><a href="home-tabbed.html">Home Tabbed</a></li>
+                                    <li id="menu-item-1425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="home-bank.html">Bank Home Page</a></li>
+                                    <li id="menu-item-1683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1683"><a href="home-compare-shop.html">Home Compare Shop</a></li>
+                                    <li id="menu-item-1682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1682"><a href="home-forex.html">Home Forex</a></li>
+                                    <li id="menu-item-1681" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1681"><a href="home-credit-card.html">Home Credit Card</a></li>
+                                    <li id="menu-item-1680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1680"><a href="home-credit-score.html">Home Credit Score</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-630" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-630"><a href="icon-image-listing.html">Loan Product</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-1130" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1130"><a href="#">Credit Card</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-1127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1127"><a href="credit-card.html">Credit Card Listing</a></li>
+                                            <li id="menu-item-1128" class="menu-item menu-item-type-post_type menu-item-object-credit_card menu-item-1128"><a href="borrow-money-card.html">Credit Card Single</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-1131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1131"><a href="#">Lenders</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-1126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1126"><a href="lenders.html">Lenders Listing</a></li>
+                                            <li id="menu-item-1129" class="menu-item menu-item-type-post_type menu-item-object-ot_lenders menu-item-1129"><a href="global-community-invester-group.html">Lenders Single</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-1677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1677"><a href="forex-brokers-listing.html">Forex Page</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-1678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1678"><a href="forex-brokers-listing.html">Forex List</a></li>
+                                            <li id="menu-item-1679" class="menu-item menu-item-type-post_type menu-item-object-forex menu-item-1679"><a href="borrowforex-2009.html">Forex Single</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-631" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-631"><a href="icon-image-listing.html">Loan Listing Image</a></li>
+                                    <li id="menu-item-629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-629"><a href="loan-listing-icon.html">Loan Listing Icon</a></li>
+                                    <li id="menu-item-819" class="menu-item menu-item-type-post_type menu-item-object-loan menu-item-819"><a href="car-loan.html">Car Loan</a></li>
+                                    <li id="menu-item-816" class="menu-item menu-item-type-post_type menu-item-object-loan menu-item-816"><a href="personal-loan.html">Personal Loan</a></li>
+                                    <li id="menu-item-817" class="menu-item menu-item-type-post_type menu-item-object-loan menu-item-817"><a href="home-loan.html">Home Loan</a></li>
+                                    <li id="menu-item-818" class="menu-item menu-item-type-post_type menu-item-object-loan menu-item-818"><a href="education-loan.html">Education Loan</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-625" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-625"><a href="about-us.html">About Us</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-644"><a href="about-us.html">About Us</a></li>
+                                    <li id="menu-item-661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-661"><a href="teams.html">Team</a></li>
+                                    <li id="menu-item-660" class="menu-item menu-item-type-post_type menu-item-object-team menu-item-660"><a href="daniel-moore.html">Team SIngle</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-632" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-632"><a href="blog.html">Blog</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-645" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-645"><a href="blog.html">Blog List</a></li>
+                                    <li id="menu-item-647" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-647"><a href="couples-buying-new-home-loan.html">Blog Single</a></li>
+                                    <li id="menu-item-634" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-634"><a href="blog-two-column.html">Blog Two Column</a></li>
+                                    <li id="menu-item-633" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-633"><a href="blog-three-column.html">Blog Three Column</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-636" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-636"><a href="compare-loan.html">Features</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-646" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-646"><a href="compare-loan.html">Compare Loan</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-1422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1422"><a href="compare-credit-card.html">Compare Credit Card</a></li>
+                                            <li id="menu-item-1420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1420"><a href="compare-student.html">Compare Student</a></li>
+                                            <li id="menu-item-1421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1421"><a href="compare-personal.html">Compare Personal Loan</a></li>
+                                            <li id="menu-item-1427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1427"><a href="compare-loan.html">Compare Loan</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-1428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1428"><a href="car-loan.html">Landing Page</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-635"><a title="Landing Page" href="car-loan.html">Car Loan</a></li>
+                                            <li id="menu-item-640" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-640"><a title="Landing Page" href="home-loan.html">Home Loan</a></li>
+                                            <li id="menu-item-1417" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1417"><a href="refinance-landing-page.html">Refinance Page</a></li>
+                                            <li id="menu-item-1419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1419"><a href="lead-genrator.html">Lead Genrator</a></li>
+                                            <li id="menu-item-1423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1423"><a href="card-landing.html">Card Page</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-893" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-858 current_page_item menu-item-893"><a title="Hot" href="loan-amortization-calculator.html" aria-current="page">Loan Calculator 1</a></li>
+                                    <li id="menu-item-641" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-641"><a href="loan-calculator.html">Loan Calculator 2</a></li>
+                                    <li id="menu-item-1135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1135"><a href="loan-eligibility-calculator.html">Loan Eligibility Calculator</a></li>
+                                    <li id="menu-item-637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-637"><a href="faq.php">FAQ Page</a></li>
+                                    <li id="menu-item-643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-643"><a href="success-story.html">Testimonials</a></li>
+                                    <li id="menu-item-569" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-569"><a href="404-page.html">404 Error</a></li>
+                                    <li id="menu-item-638" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-638"><a href="gallery-masonry.html">Gallery</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-663" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-663"><a href="gallery-two-column.html">Gallery Two Column</a></li>
+                                            <li id="menu-item-662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-662"><a href="gallery-three-column.html">Gallery Three Column</a></li>
+                                            <li id="menu-item-658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-658"><a href="gallery-masonry.html">Gallery Masonry</a></li>
+                                            <li id="menu-item-639" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-639"><a href="gallery-zoom.html">Gallery Zoom</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-642" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-642"><a href="shortcodes-tabs-how-to-apply.html">Shortcodes</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-654"><a href="shortcode-tables.html">Tables</a></li>
+                                            <li id="menu-item-659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-659"><a href="shortcodes-tabs-how-to-apply.html">Tabs</a></li>
+                                            <li id="menu-item-655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-655"><a href="shortcodes-accordion.html">Accordion</a></li>
+                                            <li id="menu-item-653" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-653"><a href="shortcode-alert.html">Alert</a></li>
+                                            <li id="menu-item-656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-656"><a href="shortcodes-button.html">Button</a></li>
+                                            <li id="menu-item-657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-657"><a href="shortcodes-column.html">Column</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-652"><a href="contact-us.html">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-1418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1418"><a href="personal-bank-account.html">Bank Account</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-1430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1430"><a href="personal-bank-account.html">Bank Account</a></li>
+                                    <li id="menu-item-1424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1424"><a href="bank-account-list.html">Bank Account List</a></li>
+                                    <li id="menu-item-1429" class="menu-item menu-item-type-post_type menu-item-object-bank_account menu-item-1429"><a href="borrow-life-savings.html">Bank Account Single</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-1 hidden-sm">
+                    <!-- search start-->
+                    <div class="search-nav"> <a class="search-btn" role="button" data-toggle="collapse" href="#searchbar" aria-expanded="false"><i class="fa fa-search"></i></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- subheader begin -->
+    <!-- Update 6-2018 -->
+    <div class="page-header">
+        <!-- Update 6-2018 -->
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12 ">
+
+                    <div class="page-breadcrumb">
+
+
+                        <ol class="breadcrumb">
+                            <!-- Breadcrumb NavXT 6.4.0 --><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Borrow." href="borrow.html" class="home"><span property="name">Home</span></a>
+                            <meta property="position" content="1">
+                            </span>
+                            <li>/</li><span property="itemListElement" typeof="ListItem"><span property="name">Loan &amp; Amortization Calculator</span>
+                            <meta property="position" content="2">
+                            </span>
+                        </ol>
+                    </div>
+
+                </div>
+                <!-- Update 6-2018 -->
+                <div class="col-md-12 col-sm-12 col-xs-12">
+
+                    <div class="bg-white pinside30">
+
+                        <div class="row">
+
+                            <div class="col-md-8 col-sm-7 col-xs-12">
+
+                                <h1 class="page-title">Loan &amp; Amortization Calculator</h1>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="sub-nav" id="sub-nav">
+
+                        <ul class="nav nav-justified"></ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Update 6-2018 -->
+
+    </div>
+    <!-- subheader close -->
+
+
+
+
+
+    <section class="wpb_row vc_row-fluid vc_custom_1498124259540">
+        <div class="container">
+            <div class="row">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_text_column wpb_content_element ">
+                                <div class="wpb_wrapper">
+                                    <h1 class="entry-title">Loan &amp; Amortization Calculator</h1>
+                                    <p>The Loan and Amortization Calculator is a professional, high quality, and highly customizable calculator and can be used for Mortgage, Auto or any kind of amortized loan.&nbsp; It can be inserted on a page or used as
+                                        a widget, even multiple times.</p>
+                                    <p>Completely translation ready and support for many different currency formats.&nbsp; Clean, material design will look great in any WordPress standards compliant theme.</p>
+
+                                </div>
+                            </div>
+
+                            <div class="shmac-holder ">
+                                <div class="mui-panel shmac-sc form-1">
+                                    <form class="shmac-form" data-currencysymbol="$" data-currencyside="left" data-downpaytype="percent" data-downpayshow="no">
+                                        <legend>Amortization Calculator</legend>
+                                        <div class="mui-form-group shmac-amount">
+                                            <a href="#" class="shmac-tip" title=" " data-title="The total purchase price of the home you wish to buy.">
+                                                <span>
+                        <img src="images/img-info.png" class="shmac-info"></span>
+                                            </a>
+                                            <div class="shmac-symbol ">$</div>
+                                            <input type="text" class="mort-amount mui-form-control  amountinput_1" value="224,000.00" data-a-dec="." data-a-sep=","><label class="mui-form-floating-label">Mortgage Amount</label>
+
+                                            <div class="err-msg"></div>
+                                        </div>
+
+                                        <div class="mui-form-group shmac-interest">
+                                            <a href="#" class="shmac-tip" title=" " data-title="The expected percent interest rate you will get on your mortgage.">
+                                                <span>
+                        <img src="images/img-info.png" class="shmac-info"></span>
+                                            </a>
+                                            <input type="text" class="interest mui-form-control interestinput_1" value="5.5" data-a-dec="." data-a-sep="," data-v-min="0.000" data-v-max="30.000" data-a-pad="false"><label class="mui-form-floating-label">Interest Rate (%)</label>
+
+                                            <div class="err-msg"></div>
+                                        </div>
+
+
+
+                                        <div class="mui-form-group shmac-term">
+                                            <div class="shmac-term-years">
+                                                <input type="checkbox" id="term-years-1" class="term-years term-group" checked><label for="term-years-1">Years</label>
+                                            </div>
+                                            <div class="shmac-term-months">
+                                                <input type="checkbox" id="term-months-1" class="term-months term-group"><label for="term-months-1">Months</label>
+                                            </div>
+
+                                            <a href="#" class="shmac-tip" title=" " data-title="The length of time it will take to repay the loan amount (30 years is common).">
+                                                <span>
+                        <img src="images/img-info.png" class="shmac-info"></span>
+                                            </a>
+                                            <input type="text" class="term mui-form-control terminput_1" value="30" data-a-pad="false"><label class="mui-form-floating-label">Term</label>
+
+                                            <div class="err-msg"></div>
+                                        </div>
+                                        <div class="progresso"> &nbsp;</div>
+                                        <div class="buttonRow">
+                                            <button class="mui-btn submit-shmac" data-mui-color="#00bfa5">Calculate</button>
+                                            <button class="mui-btn shmac-reset_1" type="reset">Reset</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- End shmac-holder -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wpb_row vc_row-fluid vc_custom_1498124265381">
+        <div class="container">
+            <div class="row">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_text_column wpb_content_element ">
+                                <div class="wpb_wrapper">
+                                    <h2>Use Different Currency Formats &amp; Symbols</h2>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-6">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper ">
+                            <style>
+                                .form-2 .shmac-form .mui-form-group>.mui-form-control:focus~label {
+                                    color: #f44336;
+                                }
+                                
+                                .form-2 .shmac-form .mui-select:focus>select {
+                                    border-color: #f44336;
+                                }
+                                
+                                .form-2 .shmac-form .mui-btn.submit-shmac,
+                                .form-2 .shmac-form .mui-btn.submit-shmac:hover {
+                                    background-color: #f44336;
+                                }
+                                
+                                .form-2 .shmac-form input[type=text]:focus:not([readonly]),
+                                .form-2 .shmac-form input[type=password]:focus:not([readonly]) {
+                                    border-bottom: 1px solid #f44336;
+                                    box-shadow: 0 1px 0 0 #f44336;
+                                }
+                                
+                                .form-2 .shmac-form [type="checkbox"]:checked+label:before {
+                                    border-right: 2px solid #f44336;
+                                    border-bottom: 2px solid #f44336;
+                                }
+                                
+                                .shmac-div.divfrom-form-2 {
+                                    border: 5px solid #f44336;
+                                }
+                                
+                                .shmac-div.divfrom-form-2 .schedule-table th {
+                                    color: #f44336;
+                                }
+                                
+                                .form-2 .ui-mprogress .deter-bar,
+                                .form-2 .ui-mprogress .indeter-bar,
+                                .form-2 .ui-mprogress .query-bar,
+                                .form-2 .ui-mprogress .bar-bg,
+                                .form-2 .ui-mprogress .buffer-bg,
+                                .form-2 .ui-mprogress .mp-ui-dashed {
+                                    background: #f44336;
+                                }
+                                
+                                .form-2 .ui-mprogress .bar-bg,
+                                .form-2 .ui-mprogress .buffer-bg {
+                                    background: rgba(244, 67, 54, 0.4);
+                                }
+                                
+                                .noUi-handle:focus {
+                                    box-shadow: 0 0 5px #f44336;
+                                }
+                            </style>
+                            <div class="shmac-holder ">
+                                <div class="mui-panel shmac-sc form-2">
+                                    <form class="shmac-form" data-disclaimer="Calculations by this calculator are estimates only. There is no warranty for the accuracy of the results or the relationship to your financial situation." data-currencysymbol="&euro;" data-currencyformat="2" data-currencyside="left"
+                                        data-downpaytype="percent" data-downpayshow="no">
+                                        <legend>Amortization In Euros</legend>
+                                        <div class="mui-form-group shmac-amount">
+                                            <a href="#" class="shmac-tip" title=" " data-title="The total purchase price of the home you wish to buy.">
+                                                <span>
+                        <img src="images/img-info.png" class="shmac-info"></span>
+                                            </a>
+                                            <div class="shmac-symbol ">&euro;</div>
+                                            <input type="text" class="mort-amount mui-form-control  amountinput_2" value="300.000,00" data-a-dec="," data-a-sep="."><label class="mui-form-floating-label">Loan Amount</label>
+
+                                            <div class="err-msg"></div>
+                                        </div>
+
+                                        <div class="mui-form-group shmac-interest">
+                                            <a href="#" class="shmac-tip" title=" " data-title="The expected percent interest rate you will get on your loan.">
+                                                <span>
+                        <img src="images/img-info.png" class="shmac-info"></span>
+                                            </a>
+                                            <input type="text" class="interest mui-form-control interestinput_2" value="5.5" data-a-dec="," data-a-sep="." data-v-min="0.000" data-v-max="30.000" data-a-pad="false"><label class="mui-form-floating-label">Interest Rate (%)</label>
+
+                                            <div class="err-msg"></div>
+                                        </div>
+
+
+
+                                        <div class="mui-form-group shmac-term">
+                                            <div class="shmac-term-years">
+                                                <input type="checkbox" id="term-years-2" class="term-years term-group" checked><label for="term-years-2">Years</label>
+                                            </div>
+                                            <div class="shmac-term-months">
+                                                <input type="checkbox" id="term-months-2" class="term-months term-group"><label for="term-months-2">Months</label>
+                                            </div>
+
+                                            <a href="#" class="shmac-tip" title=" " data-title="The length of time it will take to repay the loan amount (15 years is common).">
+                                                <span>
+                        <img src="images/img-info.png" class="shmac-info"></span>
+                                            </a>
+                                            <input type="text" class="term mui-form-control terminput_2" value="15" data-a-pad="false"><label class="mui-form-floating-label">Term</label>
+
+                                            <div class="err-msg"></div>
+                                        </div>
+                                        <div class="progresso"> &nbsp;</div>
+                                        <div class="buttonRow">
+                                            <button class="mui-btn submit-shmac" data-mui-color="#00bfa5">Calculate</button>
+                                            <button class="mui-btn shmac-reset_2" type="reset">Reset</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- End shmac-holder -->
+                        </div>
+                    </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-6">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper ">
+                            <style>
+                                .form-3 .shmac-form .mui-form-group>.mui-form-control:focus~label {
+                                    color: #00bfa5;
+                                }
+                                
+                                .form-3 .shmac-form .mui-select:focus>select {
+                                    border-color: #00bfa5;
+                                }
+                                
+                                .form-3 .shmac-form .mui-btn.submit-shmac,
+                                .form-3 .shmac-form .mui-btn.submit-shmac:hover {
+                                    background-color: #00bfa5;
+                                }
+                                
+                                .form-3 .shmac-form input[type=text]:focus:not([readonly]),
+                                .form-3 .shmac-form input[type=password]:focus:not([readonly]) {
+                                    border-bottom: 1px solid #00bfa5;
+                                    box-shadow: 0 1px 0 0 #00bfa5;
+                                }
+                                
+                                .form-3 .shmac-form [type="checkbox"]:checked+label:before {
+                                    border-right: 2px solid #00bfa5;
+                                    border-bottom: 2px solid #00bfa5;
+                                }
+                                
+                                .shmac-div.divfrom-form-3 {
+                                    border: 5px solid #00bfa5;
+                                }
+                                
+                                .shmac-div.divfrom-form-3 .schedule-table th {
+                                    color: #00bfa5;
+                                }
+                                
+                                .form-3 .ui-mprogress .deter-bar,
+                                .form-3 .ui-mprogress .indeter-bar,
+                                .form-3 .ui-mprogress .query-bar,
+                                .form-3 .ui-mprogress .bar-bg,
+                                .form-3 .ui-mprogress .buffer-bg,
+                                .form-3 .ui-mprogress .mp-ui-dashed {
+                                    background: #00bfa5;
+                                }
+                                
+                                .form-3 .ui-mprogress .bar-bg,
+                                .form-3 .ui-mprogress .buffer-bg {
+                                    background: rgba(0, 191, 165, 0.4);
+                                }
+                                
+                                .noUi-handle:focus {
+                                    box-shadow: 0 0 5px #00bfa5;
+                                }
+                            </style>
+                            <div class="shmac-holder ">
+                                <div class="mui-panel shmac-sc form-3">
+                                    <form class="shmac-form" data-disclaimer="Calculations by this calculator are estimates only. There is no warranty for the accuracy of the results or the relationship to your financial situation." data-currencysymbol="&pound;" data-currencyformat="2"
+                                        data-currencyside="left" data-downpaytype="percent" data-downpayshow="no">
+                                        <legend>Amortization In Pounds</legend>
+                                        <div class="mui-form-group shmac-amount">
+                                            <a href="#" class="shmac-tip" title=" " data-title="The total purchase price of the home you wish to buy.">
+                                                <span>
+                        <img src="images/img-info.png" class="shmac-info"></span>
+                                            </a>
+                                            <div class="shmac-symbol ">&pound;</div>
+                                            <input type="text" class="mort-amount mui-form-control  amountinput_3" value="285.000,00" data-a-dec="," data-a-sep="."><label class="mui-form-floating-label">Loan Amount</label>
+
+                                            <div class="err-msg"></div>
+                                        </div>
+
+                                        <div class="mui-form-group shmac-interest">
+                                            <a href="#" class="shmac-tip" title=" " data-title="The expected percent interest rate you will get on your loan.">
+                                                <span>
+                        <img src="images/img-info.png" class="shmac-info"></span>
+                                            </a>
+                                            <input type="text" class="interest mui-form-control interestinput_3" value="5.5" data-a-dec="," data-a-sep="." data-v-min="0.000" data-v-max="30.000" data-a-pad="false"><label class="mui-form-floating-label">Interest Rate (%)</label>
+
+                                            <div class="err-msg"></div>
+                                        </div>
+
+
+
+                                        <div class="mui-form-group shmac-term">
+                                            <div class="shmac-term-years">
+                                                <input type="checkbox" id="term-years-3" class="term-years term-group" checked><label for="term-years-3">Years</label>
+                                            </div>
+                                            <div class="shmac-term-months">
+                                                <input type="checkbox" id="term-months-3" class="term-months term-group"><label for="term-months-3">Months</label>
+                                            </div>
+
+                                            <a href="#" class="shmac-tip" title=" " data-title="The length of time it will take to repay the loan amount (15 years is common).">
+                                                <span>
+                        <img src="images/img-info.png" class="shmac-info"></span>
+                                            </a>
+                                            <input type="text" class="term mui-form-control terminput_3" value="15" data-a-pad="false"><label class="mui-form-floating-label">Term</label>
+
+                                            <div class="err-msg"></div>
+                                        </div>
+                                        <div class="progresso"> &nbsp;</div>
+                                        <div class="buttonRow">
+                                            <button class="mui-btn submit-shmac" data-mui-color="#00bfa5">Calculate</button>
+                                            <button class="mui-btn shmac-reset_3" type="reset">Reset</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- End shmac-holder -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wpb_row vc_row-fluid vc_custom_1498124270371">
+        <div class="container">
+            <div class="row">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_text_column wpb_content_element ">
+                                <div class="wpb_wrapper">
+                                    <h2>Use Optional Slider Inputs</h2>
+
+                                </div>
+                            </div>
+                            <style>
+                                .form-4 .shmac-form .mui-form-group>.mui-form-control:focus~label {
+                                    color: #1e73be;
+                                }
+                                
+                                .form-4 .shmac-form .mui-select:focus>select {
+                                    border-color: #1e73be;
+                                }
+                                
+                                .form-4 .shmac-form .mui-btn.submit-shmac,
+                                .form-4 .shmac-form .mui-btn.submit-shmac:hover {
+                                    background-color: #1e73be;
+                                }
+                                
+                                .form-4 .shmac-form input[type=text]:focus:not([readonly]),
+                                .form-4 .shmac-form input[type=password]:focus:not([readonly]) {
+                                    border-bottom: 1px solid #1e73be;
+                                    box-shadow: 0 1px 0 0 #1e73be;
+                                }
+                                
+                                .form-4 .shmac-form [type="checkbox"]:checked+label:before {
+                                    border-right: 2px solid #1e73be;
+                                    border-bottom: 2px solid #1e73be;
+                                }
+                                
+                                .shmac-div.divfrom-form-4 {
+                                    border: 5px solid #1e73be;
+                                }
+                                
+                                .shmac-div.divfrom-form-4 .schedule-table th {
+                                    color: #1e73be;
+                                }
+                                
+                                .form-4 .ui-mprogress .deter-bar,
+                                .form-4 .ui-mprogress .indeter-bar,
+                                .form-4 .ui-mprogress .query-bar,
+                                .form-4 .ui-mprogress .bar-bg,
+                                .form-4 .ui-mprogress .buffer-bg,
+                                .form-4 .ui-mprogress .mp-ui-dashed {
+                                    background: #1e73be;
+                                }
+                                
+                                .form-4 .ui-mprogress .bar-bg,
+                                .form-4 .ui-mprogress .buffer-bg {
+                                    background: rgba(30, 115, 190, 0.4);
+                                }
+                                
+                                .noUi-handle:focus {
+                                    box-shadow: 0 0 5px #1e73be;
+                                }
+                            </style>
+                            <div class="shmac-holder ">
+                                <div class="mui-panel shmac-sc form-4">
+                                    <form class="shmac-form" data-disclaimer="Calculations by this calculator are estimates only. There is no warranty for the accuracy of the results or the relationship to your financial situation." data-currencysymbol="$" data-currencyformat="1" data-currencyside="left"
+                                        data-downpaytype="percent" data-downpayshow="no">
+                                        <legend>Slider Inputs</legend>
+                                        <div class="mui-form-group shmac-amount">
+                                            <a href="#" class="shmac-tip" title=" " data-title="The total purchase price of the home you wish to buy.">
+                                                <span>
+                        <img src="images/img-info.png" class="shmac-info"></span>
+                                            </a>
+                                            <div class="shmac-symbol ">$</div>
+                                            <input type="text" class="mort-amount mui-form-control  amountinput_4" value="255,000.00" data-a-dec="." data-a-sep="," data-v-min="180,000.00" data-v-max="700,000.00"><label class="mui-form-floating-label">Loan Amount</label>
+                                            <div class="sliders" id="amount_slider_4"></div>
+                                            <div class="err-msg"></div>
+                                        </div>
+
+                                        <div class="mui-form-group shmac-interest">
+                                            <a href="#" class="shmac-tip" title=" " data-title="The expected percent interest rate you will get on your loan.">
+                                                <span>
+                        <img src="images/img-info.png" class="shmac-info"></span>
+                                            </a>
+                                            <input type="text" class="interest mui-form-control interestinput_4" value="5.2" data-a-dec="." data-a-sep="," data-v-min="1.000" data-v-max="25.000" data-a-pad="false"><label class="mui-form-floating-label">Interest Rate (%)</label>
+                                            <div class="sliders" id="interest_slider_4"></div>
+                                            <div class="err-msg"></div>
+                                        </div>
+
+
+
+                                        <div class="mui-form-group shmac-term">
+                                            <div class="shmac-term-years">
+                                                <input type="checkbox" id="term-years-4" class="term-years term-group" checked><label for="term-years-4">Years</label>
+                                            </div>
+                                            <div class="shmac-term-months">
+                                                <input type="checkbox" id="term-months-4" class="term-months term-group"><label for="term-months-4">Months</label>
+                                            </div>
+
+                                            <a href="#" class="shmac-tip" title=" " data-title="The length of time it will take to repay the loan amount (30 years is common).">
+                                                <span>
+                        <img src="images/img-info.png" class="shmac-info"></span>
+                                            </a>
+                                            <input type="text" class="term mui-form-control terminput_4" value="30" data-v-min="1" data-v-max="90" data-a-pad="false"><label class="mui-form-floating-label">Term</label>
+                                            <div class="sliders" id="term_slider_4"></div>
+                                            <div class="err-msg"></div>
+                                        </div>
+                                        <div class="progresso"> &nbsp;</div>
+                                        <div class="buttonRow">
+                                            <button class="mui-btn submit-shmac" data-mui-color="#00bfa5">Calculate</button>
+                                            <button class="mui-btn shmac-reset_4" type="reset">Reset</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- End shmac-holder -->
+                            <style>
+                                .shmac-sc.form-4 .noUi-handle:hover {
+                                    box-shadow: 0 0 5px #1e73be;
+                                }
+                                
+                                .shmac-sc.form-4 .sliders {
+                                    background-color: #1e73be;
+                                }
+                            </style>
+                            <script type="text/javascript">
+                                jQuery(document).ready(function() {
+                                    //Amount Slider- Input Script
+                                    var amtStart = '255,000.00';
+                                    amtStart = parseFloat(amtStart.replace(/,/g, ''));
+                                    var amtMin = '180,000.00';
+                                    amtMin = parseFloat(amtMin.replace(/,/g, ''));
+                                    var amtStep = parseFloat('5000');
+                                    var amtMax = '700,000.00';
+                                    amtMax = parseFloat(amtMax.replace(/,/g, ''));
+                                    var amount_slider_4 = document.getElementById("amount_slider_4");
+                                    var amount_slider_value = jQuery(".amountinput_4");
+                                    noUiSlider.create(amount_slider_4, {
+                                        start: amtStart,
+                                        step: amtStep,
+                                        range: {
+                                            'min': amtMin,
+                                            'max': amtMax
+                                        },
+                                        format: wNumb({
+                                            decimals: 2,
+                                            mark: '.',
+                                            thousand: ',',
+                                        })
+                                    });
+                                    amount_slider_4.noUiSlider.on('update', function(values, handle) {
+                                        if (handle == 0) {
+                                            amount_slider_value.val(values[handle]);
+                                            amount_slider_value.autoNumeric('init');
+                                        }
+                                    });
+                                    amount_slider_value.on('change', function() {
+                                        amount_slider_value.autoNumeric('init');
+                                        amount_slider_4.noUiSlider.set(amount_slider_value.val());
+                                        amount_slider_value.autoNumeric('init');
+                                    });
+                                    amount_slider_value.on('keyup', function(e) {
+                                        var amtVal = this.value;
+                                        amount_slider_value.autoNumeric('init');
+                                        switch (e.which) {
+                                            case 13:
+                                                amount_slider_4.noUiSlider.set(amtVal);
+                                                amount_slider_value.autoNumeric('init');
+                                                return false;
+                                                break;
+                                            case 38:
+                                                amount_slider_4.noUiSlider.set(amtVal);
+                                                amount_slider_value.autoNumeric('init');
+                                                break;
+                                            case 40:
+                                                amount_slider_4.noUiSlider.set(amtVal);
+                                                amount_slider_value.autoNumeric('init');
+                                                break;
+                                        }
+                                    });
+                                    //~ amount_slider_4.noUiSlider.on('change', function() {
+                                    //~ jQuery('.amountinput_4').autoNumeric('update');
+                                    //~ });
+                                    //~ amount_slider_4.noUiSlider.on('end', function() {
+                                    //~ jQuery('.amountinput_4').autoNumeric('update');
+                                    //~ });
+                                    //Interest Slider- Input Script
+                                    var intMin = parseFloat('1.000');
+                                    var intStep = parseFloat('1.000');
+                                    var intMax = parseFloat('25.000');
+                                    var intStart = parseFloat('5.2');
+                                    var interest_slider_4 = document.getElementById("interest_slider_4");
+                                    var interest_slider_value = jQuery(".interestinput_4");
+                                    noUiSlider.create(interest_slider_4, {
+                                        start: intStart,
+                                        step: intStep,
+                                        range: {
+                                            'min': intMin,
+                                            'max': intMax
+                                        },
+                                        format: wNumb({
+                                            decimals: 2,
+                                            mark: '.',
+                                        })
+                                    });
+                                    interest_slider_4.noUiSlider.on('update', function(values, handle) {
+                                        if (handle == 0) {
+                                            interest_slider_value.val(values[handle]);
+                                            interest_slider_value.autoNumeric('init');
+                                        }
+                                    });
+                                    //~ interest_slider.on('change', function(){
+                                    //~ var intVal = Number(this.value.replace(/,/g , ''));                     
+                                    //~ interest_slider.noUiSlider.set(intVal);
+                                    //~ });
+                                    interest_slider_value.on('keyup', function(e) {
+                                        interest_slider_value.autoNumeric('init');
+                                        var intVal = this.value;
+                                        switch (e.which) {
+                                            case 13:
+                                                interest_slider_4.noUiSlider.set(intVal);
+                                                return false;
+                                                break;
+                                            case 38:
+                                                interest_slider_4.noUiSlider.set(intVal);
+                                                break;
+                                            case 40:
+                                                interest_slider_4.noUiSlider.set(intVal);
+                                                break;
+                                        }
+                                    });
+                                    //DownPayment Slider- Input Script
+                                    //Term Slider- Input Script
+                                    var termMin = parseFloat('1');
+                                    var termStep = parseFloat('1');
+                                    var termMax = parseFloat('90');
+                                    var termStart = parseFloat('30');
+                                    var term_slider_4 = document.getElementById("term_slider_4");
+                                    var term_slider_value = jQuery(".terminput_4");
+                                    noUiSlider.create(term_slider_4, {
+                                        start: termStart,
+                                        step: termStep,
+                                        range: {
+                                            'min': termMin,
+                                            'max': termMax
+                                        },
+                                        format: wNumb({
+                                            decimals: 0
+                                        })
+                                    });
+                                    term_slider_4.noUiSlider.on('update', function(values, handle) {
+                                        var value = values[handle];
+                                        if (handle == 0) {
+                                            term_slider_value.val(value);
+                                        }
+                                    });
+                                    term_slider_value.on('change', function() {
+                                        var termVal = Number(this.value.replace(/,/g, ''));
+                                        term_slider_4.noUiSlider.set(termVal);
+                                    });
+                                    term_slider_value.on('keyup', function(e) {
+                                        var termVal = Number(this.value.replace(/,/g, ''));
+                                        switch (e.which) {
+                                            case 13:
+                                                term_slider_4.noUiSlider.set(termVal);
+                                                return false;
+                                                break;
+                                            case 38:
+                                                term_slider_4.noUiSlider.set(termVal);
+                                                break;
+                                            case 40:
+                                                term_slider_4.noUiSlider.set(termVal);
+                                                break;
+                                        }
+                                    });
+                                    jQuery(".shmac-reset_4").on("click", function() {
+                                        amount_slider_4.noUiSlider.reset();
+                                        term_slider_4.noUiSlider.reset();
+                                        downpay_slider_4.noUiSlider.reset();
+                                        interest_slider_4.noUiSlider.reset();
+                                    });
+
+
+
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wpb_row vc_row-fluid vc_custom_1498121289290">
+        <div class="container">
+            <div class="row">
+                <div class="wpb_column vc_column_container vc_col-sm-6">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_text_column wpb_content_element ">
+                                <div class="wpb_wrapper">
+                                    <h2>Full of Features</h2>
+
+                                </div>
+                            </div>
+                            <div class="vc_tta-container" data-vc-action="collapse">
+                                <div class="vc_general vc_tta vc_tta-accordion vc_tta-color-blue vc_tta-style-classic vc_tta-shape-rounded vc_tta-o-shape-group vc_tta-controls-align-left">
+                                    <div class="vc_tta-panels-container">
+                                        <div class="vc_tta-panels">
+                                            <div class="vc_tta-panel" id="1498119837011-da430f3d-592d" data-vc-content=".vc_tta-panel-body">
+                                                <div class="vc_tta-panel-heading">
+                                                    <h4 class="vc_tta-panel-title vc_tta-controls-icon-position-left"><a href="#1498119837011-da430f3d-592d" data-vc-accordion data-vc-container=".vc_tta-container"><i class="vc_tta-icon entypo-icon entypo-icon-home"></i><span class="vc_tta-title-text">Professional</span><i class="vc_tta-controls-icon vc_tta-controls-icon-plus"></i></a></h4>
+                                                </div>
+                                                <div class="vc_tta-panel-body">
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <p>Perfect for real estate agents &amp; lenders to give your visitors a professional and informative amortization schedule both on page &amp; as a PDF report sent to them.&nbsp; Includes estimates
+                                                                for PMI, Insurance, and taxes (which can be disabled as well).</p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vc_tta-panel" id="1498119837082-77e89273-5ffd" data-vc-content=".vc_tta-panel-body">
+                                                <div class="vc_tta-panel-heading">
+                                                    <h4 class="vc_tta-panel-title vc_tta-controls-icon-position-left"><a href="#1498119837082-77e89273-5ffd" data-vc-accordion data-vc-container=".vc_tta-container"><i class="vc_tta-icon entypo-icon entypo-icon-user-add"></i><span class="vc_tta-title-text">Lead Capture</span><i class="vc_tta-controls-icon vc_tta-controls-icon-plus"></i></a></h4>
+                                                </div>
+                                                <div class="vc_tta-panel-body">
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <p>Use it to capture leads by receiving a copy of the PDF amortization schedule they generate (along with their email), so you&rsquo;ll know what kind of loan and price they are considering.</p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vc_tta-panel" id="1498119982982-c564a24c-2ab2" data-vc-content=".vc_tta-panel-body">
+                                                <div class="vc_tta-panel-heading">
+                                                    <h4 class="vc_tta-panel-title vc_tta-controls-icon-position-left"><a href="#1498119982982-c564a24c-2ab2" data-vc-accordion data-vc-container=".vc_tta-container"><i class="vc_tta-icon fa fa-cube"></i><span class="vc_tta-title-text">Visual Composer Integration</span><i class="vc_tta-controls-icon vc_tta-controls-icon-plus"></i></a></h4>
+                                                </div>
+                                                <div class="vc_tta-panel-body">
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <p>The amortization calculator is also integrated with Visual Composer for easy drag and drop placement and settings override capability.&nbsp; You can add it easily to any page and create multiple
+                                                                separate purposed calculators!</p>
+                                                            <p><img class="alignnone size-full wp-image-871" src="images/06-amortization-vc.jpg" alt="" width="186" height="69"></p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vc_tta-panel vc_active" id="1498120130466-7825d38a-d04b" data-vc-content=".vc_tta-panel-body">
+                                                <div class="vc_tta-panel-heading">
+                                                    <h4 class="vc_tta-panel-title vc_tta-controls-icon-position-left"><a href="#1498120130466-7825d38a-d04b" data-vc-accordion data-vc-container=".vc_tta-container"><i class="vc_tta-icon entypo-icon entypo-icon-retweet"></i><span class="vc_tta-title-text">Back End Configuration</span><i class="vc_tta-controls-icon vc_tta-controls-icon-plus"></i></a></h4>
+                                                </div>
+                                                <div class="vc_tta-panel-body">
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <p>Includes many options for customizing the calculator on the back end.&nbsp; No digging through code or files to change settings!</p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vc_tta-panel" id="1498120222428-bf1bce0a-fa3d" data-vc-content=".vc_tta-panel-body">
+                                                <div class="vc_tta-panel-heading">
+                                                    <h4 class="vc_tta-panel-title vc_tta-controls-icon-position-left"><a href="#1498120222428-bf1bce0a-fa3d" data-vc-accordion data-vc-container=".vc_tta-container"><i class="vc_tta-icon entypo-icon entypo-icon-cog"></i><span class="vc_tta-title-text">Customizable</span><i class="vc_tta-controls-icon vc_tta-controls-icon-plus"></i></a></h4>
+                                                </div>
+                                                <div class="vc_tta-panel-body">
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <p>Customize colors, texts, report logo, information displayed in forms, output and email.&nbsp; It even has a custom CSS field on the back-end and you can give each calculator a specific class
+                                                                for styling differently.</p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vc_tta-panel" id="1498120291464-35ac28bf-3193" data-vc-content=".vc_tta-panel-body">
+                                                <div class="vc_tta-panel-heading">
+                                                    <h4 class="vc_tta-panel-title vc_tta-controls-icon-position-left"><a href="#1498120291464-35ac28bf-3193" data-vc-accordion data-vc-container=".vc_tta-container"><i class="vc_tta-icon entypo-icon entypo-icon-mobile"></i><span class="vc_tta-title-text">Responsive</span><i class="vc_tta-controls-icon vc_tta-controls-icon-plus"></i></a></h4>
+                                                </div>
+                                                <div class="vc_tta-panel-body">
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <p>Designed to be responsive, even the amortization schedule generated collapses on small screens for readability!</p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vc_tta-panel" id="1498120330729-0095630f-50d9" data-vc-content=".vc_tta-panel-body">
+                                                <div class="vc_tta-panel-heading">
+                                                    <h4 class="vc_tta-panel-title vc_tta-controls-icon-position-left"><a href="#1498120330729-0095630f-50d9" data-vc-accordion data-vc-container=".vc_tta-container"><i class="vc_tta-icon entypo-icon entypo-icon-check"></i><span class="vc_tta-title-text">Currency Formats</span><i class="vc_tta-controls-icon vc_tta-controls-icon-plus"></i></a></h4>
+                                                </div>
+                                                <div class="vc_tta-panel-body">
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <p>Multiple currency formats are available in forms and reports with the change of an option.&nbsp; Any currency symbol can be used. Support the currency of all countries in the world.</p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vc_tta-panel" id="1498120464097-8e4f3000-97ee" data-vc-content=".vc_tta-panel-body">
+                                                <div class="vc_tta-panel-heading">
+                                                    <h4 class="vc_tta-panel-title vc_tta-controls-icon-position-left"><a href="#1498120464097-8e4f3000-97ee" data-vc-accordion data-vc-container=".vc_tta-container"><i class="vc_tta-icon entypo-icon entypo-icon-flag"></i><span class="vc_tta-title-text">Translatable</span><i class="vc_tta-controls-icon vc_tta-controls-icon-plus"></i></a></h4>
+                                                </div>
+                                                <div class="vc_tta-panel-body">
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <p>The calculator is completely ready to translate with included language files and text fields you can change.</p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vc_tta-panel" id="1498120518591-3a50fcf0-c763" data-vc-content=".vc_tta-panel-body">
+                                                <div class="vc_tta-panel-heading">
+                                                    <h4 class="vc_tta-panel-title vc_tta-controls-icon-position-left"><a href="#1498120518591-3a50fcf0-c763" data-vc-accordion data-vc-container=".vc_tta-container"><i class="vc_tta-icon entypo-icon entypo-icon-info"></i><span class="vc_tta-title-text">Not Just Mortgages</span><i class="vc_tta-controls-icon vc_tta-controls-icon-plus"></i></a></h4>
+                                                </div>
+                                                <div class="vc_tta-panel-body">
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <p>Not just for mortgage amortization, use it for other types of amortization as well e.g. auto loans.</p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-6">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_text_column wpb_content_element ">
+                                <div class="wpb_wrapper">
+                                    <h2>Send A PDF report to your email?</h2>
+
+                                </div>
+                            </div>
+
+                            <div class="wpb_single_image wpb_content_element vc_align_left">
+
+                                <figure class="wpb_wrapper vc_figure">
+                                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="410" height="127" src="images/06-logo-350.png" class="vc_single_image-img attachment-full" alt="" srcset="http://demo.oceanthemes.net/borrow/wp-content/uploads/2017/06/logo-350.png 410w, http://demo.oceanthemes.net/borrow/wp-content/uploads/2017/06/logo-350-300x93.png 300w"
+                                            sizes="(max-width: 410px) 100vw, 410px"></div>
+                                </figure>
+                            </div>
+                            <div class="vc_btn3-container vc_btn3-inline"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-primary" href="http://demo.oceanthemes.net/borrow/wp-content/uploads/2017/06/amortization-09-21-2015.pdf"
+                                    title="Example PDF Report" target="_blank"><i class="vc_btn3-icon fa fa-file-pdf-o"></i> Example PDF Report</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer section-space80">
+        <!-- footer -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="footer-logo">
+                        <img src="images/01-ft-logo.png" alt=""></div>
+                </div>
+
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h3 class="newsletter-title">Signup Our Newsletter</h3>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="newsletter-form">
+                                <!-- Newsletter Form -->
+                                <form action="http://demo.oceanthemes.net/borrow/?na=s" method="post">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" id="newsletter" name="ne" placeholder="Write E-Mail Address" required><span class="input-group-btn">
+                              <button class="btn btn-default" type="submit">Go!</button>
+                          </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="dark-line">
+        </div>
+        <section class="wpb_row vc_row-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="widget-text mt40 wpb_column vc_column_container vc_col-sm-6">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper ">
+                                <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+                                        <p>Our goal at Mighty Finance Solutions is to provide access to personal loans and education loan, car loan, home loan at insight competitive interest rates. We are the loan provider, you can use our loan product.</p>
+
+                                    </div>
+                                </div>
+                                <div class="vc_empty_space" style="height: 26px"><span class="vc_empty_space_inner"></span></div>
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <p class="address-text"><i class="icon-placeholder-3 icon-1x"></i> Suite 118 Carousel Shopping Complex, Lusaka.</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <p class="call-text"><i class="icon-phone-call icon-1x" style="padding-right: 10px;"></i>+260977372265, +260763580780</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-2">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper ">
+                                <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+                                        <div class="widget-footer mt40">
+                                            <ul class="listnone">
+                                                <li><a href="borrow.html">Home</a></li>
+                                                <li><a href="loan-listing-icon.html">Services</a></li>
+                                                <li><a href="about-us.html">About Us</a></li>
+                                                <li><a href="blog.html">News</a></li>
+                                                <li><a href="faq.php">Faq</a></li>
+                                                <li><a href="contact-us.html">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-2">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper ">
+                                <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+                                        <div class="widget-footer mt40">
+                                            <ul class="listnone">
+                                                <li><a href="car-loan.html">Car Loan</a></li>
+                                                <li><a href="personal-loan.html">Personal Loan</a></li>
+                                                <li><a href="education-loan.html">Education Loan</a></li>
+                                                <li><a href="business-loan.html">Business Loan</a></li>
+                                                <li><a href="home-loan.html">Home Loan</a></li>
+                                                <li><a href="debt-consolidation.html">Debt Consolidation</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-2">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper ">
+                                <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+                                        <div class="widget-social mt40">
+                                            <ul class="listnone">
+                                                <li><a href="https://facebook.com"><i class="fa fa-facebook"></i>Facebook</a></li>
+                                                <li><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i>Google Plus</a></li>
+                                                <li><a href="https://twitter.com"><i class="fa fa-twitter"></i>Twitter</a></li>
+                                                <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i>Linked In</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="tiny-footer">
+        <!-- tiny footer -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <p>&copy; Copyright 2021 | Mighty Finance Loan Company</p>
+                </div>
+                <div class="col-md-6 col-sm-6 text-right col-xs-6">
+                    <p><a style="color: #778191" href="#" target="_blank" rel="noopener">Terms of use</a> | <a style="color: #778191" href="#" target="_blank" rel="noopener">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a id="to-the-top" href="loan-amortization-calculator.html"><i class="fa fa-angle-up"></i></a>
+
+    <script type="text/javascript">
+        (function($) {
+            "use strict";
+            $(document).on('ready', function() {
+                $("#slider-range-min").slider({
+                    range: "min",
+                    value: 3000,
+                    min: 1000,
+                    max: 5000,
+                    slide: function(event, ui) {
+                        $("#amount").val("$" + ui.value);
+                    }
+                });
+                $("#amount").val("$" + $("#slider-range-min").slider("value"));
+                $("#slider-range-max").slider({
+                    range: "max",
+                    min: 1,
+                    max: 10,
+                    value: 2,
+                    slide: function(event, ui) {
+                        $("#j").val(ui.value);
+                    }
+                });
+                $("#j").val($("#slider-range-max").slider("value"));
+            });
+            Royal_Preloader.config({
+                mode: 'logo',
+                logo: 'images/images-logo.png',
+                logo_size: [160, 60],
+                showProgress: true,
+                showPercentage: true,
+                text_colour: '#111111',
+                background: '#ffffff'
+            });
+        })(jQuery);
+    </script>
+    <script type="text/html" id="wpb-modifications"></script>
+    <link rel="stylesheet" id="shmac-frontend-css" href="css/css-frontend.css" type="text/css" media="all">
+    <link rel="stylesheet" id="mprogress-css" href="css/css-mprogress.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="shmac-custom-scrollbar-css" href="css/css-jquery.mCustomScrollbar.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="nouislider-css" href="css/css-nouislider.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="vc_tta_style-css" href="css/css-js_composer_tta.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="vc_entypo-css" href="css/vc-entypo-vc_entypo.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="vc_font_awesome_5_shims-css" href="css/css-v4-shims.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="vc_font_awesome_5-css" href="css/css-all.min.css" type="text/css" media="all">
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var wpcf7 = {
+            "apiSettings": {
+                "root": "http:\/\/demo.oceanthemes.net\/borrow\/wp-json\/contact-form-7\/v1",
+                "namespace": "contact-form-7\/v1"
+            }
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/js-scripts.js"></script>
+    <script type="text/javascript" src="js/js-modernizr.js"></script>
+    <script type="text/javascript" src="js/js-bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBWcuOyOT32O67_1RFoES45tATsgXcdb4k&amp;ver=20151228"></script>
+    <script type="text/javascript" src="js/js-menumaker.js"></script>
+    <script type="text/javascript" src="js/js-animsition.js"></script>
+    <script type="text/javascript" src="js/js-jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/js-owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/js-jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/js-jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/js-jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/js-simple-slider.js"></script>
+    <script type="text/javascript" src="js/js-jquery-ui.js"></script>
+    <script type="text/javascript" src="js/js-jquery.nice-select.min.js"></script>
+    <script type="text/javascript" src="js/js-fastclick.js"></script>
+    <script type="text/javascript" src="js/js-custom.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var newsletter = {
+            "messages": {
+                "email_error": "The email is not correct",
+                "name_error": "The name is not correct",
+                "surname_error": "The last name is not correct",
+                "profile_error": "A mandatory field is not filled in",
+                "privacy_error": "You must accept the privacy statement"
+            },
+            "profile_max": "20"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/subscription-validate.js"></script>
+    <script type="text/javascript" src="js/js-wp-embed.min.js"></script>
+    <script type="text/javascript" src="js/dist-js_composer_front.min.js"></script>
+    <script type="text/javascript" src="js/js-autoNumeric.js"></script>
+    <script type="text/javascript" src="js/js-mui.js"></script>
+    <script type="text/javascript" src="js/js-jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="js/js-mprogress.min.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var SHMAC_Ajax = {
+            "ajaxurl": "http:\/\/demo.oceanthemes.net\/borrow\/wp-admin\/admin-ajax.php",
+            "nextNonce": "a6b204249c",
+            "shmacColor": "#03a9f4"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/js-frontend-ajax.js"></script>
+    <script type="text/javascript" src="js/js-nouislider.min.js"></script>
+    <script type="text/javascript" src="js/js-wNumb.js"></script>
+    <script type="text/javascript" src="js/vc_accordion-vc-accordion.min.js"></script>
+    <script type="text/javascript" src="js/vc-tta-autoplay-vc-tta-autoplay.min.js"></script>
+</body>
+
+</html>
